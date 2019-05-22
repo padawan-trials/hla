@@ -1,0 +1,394 @@
+body{
+    font-family: 'ProximaNovaRegular';
+    font-size: 16px;
+    color: #464646;
+}
+
+p {
+    line-height: 2em;
+    margin-top: 10px;
+}
+
+header {
+    padding: 20px 0 30px;
+    background: #fff;
+    color: #7c8786;
+}
+
+.hero {
+    padding: 55px 0 0px;
+    position: relative;
+    overflow: hidden;
+    background: #25a69d;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+
+.hero h1, .hero h2 {
+    font-family: 'ProximaNovaRegular';
+    font-size: 42px;
+    /* font-weight: 600; */
+    margin: 0 0 20px;
+    text-shadow: 0 3px 7px rgba(0,0,0,0.15);
+    padding-bottom: 20px;
+}
+
+.hero h1 i {
+    font-family: 'ProximaNovaBold';
+    font-weight: 600;
+}
+
+.radio-option-btn {
+    position: relative;
+    display: table-cell;
+    /* height: 148px; */
+    vertical-align: middle;
+    width: 50%;
+    max-width: 100%;
+    /* margin: 0 auto 25px; */
+    border-radius: 6px;
+    border: none;
+    background: #4eb7af;
+    color: #25a69d;
+    padding: 20px 0px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    text-transform: none;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.1);
+    box-shadow: 0 0 0 rgba(0,0,0,0.1);
+    /* border: 2px solid #fff; */
+}
+
+.radio-options .radio-icon {
+    width: 85px;
+    height: 75px;
+    display: block;
+    background: url(../images/hla-home.png) no-repeat;
+    margin: 0 auto 3px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.radio-options .radio-icon.refinance {
+   background: url(../images/hla-board.png) no-repeat;
+}
+
+
+.hero .radio-wrap, .shortform .hero .step-fld {
+    width: 650px;
+    max-width: 100%;
+}
+
+ .radio-options {
+    position: relative;
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 24px;
+}
+
+.radio-wrap {
+    width: 100%;
+    margin: -30px auto 0;
+    position: relative;
+}
+
+
+.radio-option-btn:hover {
+    color: #25a69d;
+    border-color: #25a69d;
+    -webkit-box-shadow: 0 10px 24px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 24px 5px rgba(0,0,0,0.1);
+}
+
+
+.radio-options input {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    visibility: hidden;
+}
+
+
+label strong {
+    background: #ffffff;
+    padding: 10px 0px 10px;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: #818181;
+}
+
+
+ header .phone-details {
+    text-align: right;
+    line-height: 1;
+    padding-top: 3px;
+}
+
+header small {
+    display: block;
+    font-size: 9px;
+    text-transform: uppercase;
+    margin: 0 0 3px;
+    color: #25a69d;
+}
+
+header .phone-details span.phone-icon {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin: 0 0 9px;
+    border-radius: 500px;
+    background: #25a69d url(../images/hic-short-phone-icon.png) no-repeat center;
+    position: absolute;
+    left: 0;
+    top: -16px;
+}
+
+header .phone-details span {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+header .phone-details a {
+    color: #7c8786;
+    font-weight: 700;
+    position: relative;
+    height: 26px;
+    padding-left: 44px;
+}
+
+.phone-details span {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+.check-list {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    width: 450px;
+    max-width: 100%;
+}
+
+.check-list li:before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 500px;
+    left: 0;
+    top: 0;
+    background: url(../images/hla-check.png) no-repeat center;
+}
+
+
+.check-list li {
+    display: block;
+    font-size: 17px;
+    min-height: 25px;
+    position: relative;
+    padding: 3px 0 0 43px;
+    margin: 0 0 20px;
+}
+
+
+ .badge-list {
+    margin: 0 -30px;
+    padding: 0;
+    list-style-type: none;
+
+    font-size: 18px;
+}
+
+
+section.hla-power-class {
+    padding: 80px 0;
+}
+
+
+.powered-by-title {
+    margin: 0 0 20px;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 36px;
+    color: #636363;
+}
+
+.powered-by-title img {
+    position: relative;
+    top: -10px;
+    margin-left: 20px;
+}
+
+section.hla-afford-rate {
+    padding: 55px 0 100px;
+    background:url(../images/hla-comparebg.png) no-repeat left;
+}
+
+
+button.btn.btn-block {
+    background-color: #25a69d;
+    border-bottom: 4px solid #218f87;
+    color: #fff;
+    font-family: 'ProximaNovaBold';
+}
+
+
+.text-warning {
+    color: #e4ca39;
+}
+
+.star-reviews span {
+    color: #838383;
+    font-size: 15px;
+}
+
+.customer-review h3 {
+    font-weight: 600;
+    text-transform: none;
+    color: #636363;
+}
+
+.star-reviews span {
+    color: #838383;
+    font-size: 15px;
+}
+
+.customer-review h3 {
+    font-weight: 600;
+    text-transform: none;
+    color: #636363;
+}
+
+.shadow-box {
+    padding: 50px 20px 50px;
+    background: #ffffff;
+    margin-top: -50px;
+    margin-bottom: -20px;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #f1f1f1;
+}
+
+
+.customer-review {
+    padding: 10px 30px;
+}
+
+
+.overall-review {
+    margin-top: 120px;
+}
+
+span.scoring {
+  background: #25a69d url(../images/hla-score.png);
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  width: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+}
+
+.col-md-8.text-warning {
+    margin-top: 50px;
+}
+
+.col-md-8.text-warning i.fa.fa-star {
+    font-size: 36px;
+}
+
+.badge {
+    text-align: left;
+    background: transparent;
+    margin-top:40px;
+    padding: 20px 0 0;
+    border-top: 1px solid #d6d6d6;
+}
+
+ul.badge-list li {
+    color: #373737;
+    font-size: 18px;
+    font-family: 'ProximaNovaRegular' !important;
+}
+
+ul.badge-list li strong {
+    color: #373737;
+    font-size: 18px;
+    font-family: 'ProximaNovaBold';
+}
+
+
+
+footer {
+    background: #f6f6f6;
+    color: #949494;
+    padding: 40px 0 30px;
+    text-align: left;
+    font-size: 15px;
+}
+    .footer-address .location {
+        text-align: right;
+        padding-top: 8px;
+        padding-right: 43px;
+    }
+
+    footer .footer-address {
+        margin: 0;
+        padding: 30px 0 0;
+        border-top: 1px solid #d4d4d4;
+        font-size: 16px;
+    }
+
+    .footer-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto 35px;
+     }
+
+    .footer-nav li {
+        display: inline-block;
+    }
+
+    .footer-nav a {
+        display: block;
+        padding: 0 40px 0 0;
+        font-weight: 600;
+        text-transform: none;
+        color: #25a69d;
+        font-size: 16px;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+        -ms-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+    }
